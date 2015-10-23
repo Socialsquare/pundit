@@ -1,0 +1,19 @@
+{
+  "name": "pundit",
+  "version": "0.0.1",
+  "description": "The API to Answer to The Ultimate Question of Life, the Universe, and Everything.",
+  "main": "pundit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Socialsquare/pundit.git"
+  },
+  "author": "Kristoffer Dorph <kristofferdo@gmail.com>, Kræn Hansen <kraen@socialsquare.dk>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Socialsquare/pundit/issues"
+  },
+  "homepage": "https://github.com/Socialsquare/pundit#readme"
+}
