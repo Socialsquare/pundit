@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Socialsquare/pundit#readme",
   "devDependencies": {
     "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
   }
 }
