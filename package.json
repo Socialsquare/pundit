@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Socialsquare/pundit/issues"
   },
-  "homepage": "https://github.com/Socialsquare/pundit#readme"
+  "homepage": "https://github.com/Socialsquare/pundit#readme",
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  }
 }
