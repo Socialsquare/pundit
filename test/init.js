@@ -2,8 +2,7 @@ var assert = require('assert');
 var Pundit = require('../pundit').config('http://localhost:3000/');
 
 describe('Pundit', function() {
-  it('should be requireable and answer a simple question', function(done) {
-    this.timeout(500);
+  it('should be requireable and answer a simple question', function() {
 
     var q = 'What is the Answer to The Ultimate Question of Life, '+
             'the Universe, and Everything?';
@@ -13,9 +12,8 @@ describe('Pundit', function() {
 
     var wisdom = Pundit.ask(q, knowledge);
 
-    wisdom().then(function(answer) {
-      assert(answer === 42);
-      done();
+    return wisdom().then(function(answer) {
+      assert.equal(answer, 42);
     });
   });
 });
