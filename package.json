@@ -4,7 +4,7 @@
   "description": "The API to Answer to The Ultimate Question of Life, the Universe, and Everything.",
   "main": "pundit.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
